@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="language-switch">
+            <a href="#" onclick="changeLanguage('en')">ENG</a>|<a href="#" onclick="changeLanguage('it')">  IT</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about" data-lang="about">Chi sono</a></li>
+            <li><a href="./experiences" data-lang="experiences">Esperienze</a></li>
+            <li><a href="./projects" data-lang="projects">Progetti</a></li>
+            <li><a href="./contactme" data-lang="contactme">Contattami</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1 data-lang="about">Chi sono</h1>
+        <p data-lang="description">Ciao, mi chiamo Jacopo e sono uno studente di cybersecurity appassionato di tecnologia, informatica, musica e videogiochi. <br>
+            Mi sono diplomato in informatica e telecomunicazioni con specializzazione informatica e ora sto frequentando un corso di cybersecuriy presso un ITS. <br>
+            Ho ottime conoscenze di networking, virtualizzazione, uso dei sistemi GNU/Linux e database.
+            So programmare in C++, Java, PHP, MySql, JavaScript e anche HTML, CSS. Possiedo eccellenti capacità di teamworking, problem solving, pensiero analitico, autoapprendimento, comunicazione ed empatia. <br>
+            Mi ritengo una persona precisa, attenta ai dettagli e simpatica :) <br>
+            Nel tempo libero mi piace giocare ai videogiochi, suonare il sassofono o guardare film. <br>
+            E con questa piccola presentazione spero di essermi rappresentato al meglio e di aver attirato la tua attenzione :D    
+        </p>
+    </section>
+    <img src="img/AboutMe_img.jpg" alt="Me" width="300px" style="margin-bottom: 100px;border-radius: 40%;">
+    <footer>
+        <p>&copy; 2024 Il Mio Sito</p>
+    </footer>
+
+</body>
+</html>
